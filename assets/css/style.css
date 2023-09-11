@@ -252,9 +252,14 @@ a:focus {
   display: none;
 }
 
+.logo-large{
+  display: flex;
+}
+
 .custom_nav-container {
   padding: 0;
 }
+
 
 .custom_nav-container .navbar-nav {
   margin: auto;
@@ -934,6 +939,7 @@ a:focus {
 }
 
 .software_section {
+ 
   padding-top: 45px;
   padding-bottom: 45px;
   position: relative;
@@ -941,11 +947,29 @@ a:focus {
   color: #ffffff;
 }
 
+.software_section img{
+  max-height: 280px;
+}
+
+.software_section .heading_container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
 .software_section .row {
   padding-top: 20px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; 
 }
 
 .software_section .img-box {
